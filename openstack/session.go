@@ -27,7 +27,7 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/kodix/golang-client/util"
+	"github.com/kodix/openstack-golang-client/util"
 )
 
 var Debug = new(bool)

@@ -1,3 +1,3 @@
-package: github.com/kodix/golang-client
+package: github.com/kodix/openstack-golang-client
 import:
 - package: github.com/fullsailor/pkcs7

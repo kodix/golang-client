@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kodix/golang-client/openstack"
-	"github.com/kodix/golang-client/testUtil"
-	"github.com/kodix/golang-client/util"
+	"github.com/kodix/openstack-golang-client/openstack"
+	"github.com/kodix/openstack-golang-client/testUtil"
+	"github.com/kodix/openstack-golang-client/util"
 )
 
 var tokn = "eaaafd18-0fed-4b3a-81b4-663c99ec1cbb"

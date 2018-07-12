@@ -31,7 +31,7 @@ Code maturity is considered experimental.
 
 Installation
 ------------
-Use `go get github.com/kodix/golang-client`.  Or alternatively,
+Use `go get github.com/kodix/openstack-golang-client`.  Or alternatively,
 download or clone the repository.
 
 The lib was developed and tested on go 1.3. No external dependencies, so far.

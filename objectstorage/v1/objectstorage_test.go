@@ -16,7 +16,7 @@ package objectstorage
 
 import (
 	"errors"
-	"github.com/kodix/golang-client/openstack"
+	"github.com/kodix/openstack-golang-client/openstack"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"

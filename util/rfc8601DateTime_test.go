@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kodix/golang-client/testUtil"
+	"github.com/kodix/openstack-golang-client/testUtil"
 )
 
 var testValue = `{"created_at":"2014-09-29T14:44:31"}`

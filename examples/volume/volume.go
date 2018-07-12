@@ -21,9 +21,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kodix/golang-client/examples/setup"
-	"github.com/kodix/golang-client/openstack"
-	"github.com/kodix/golang-client/volume/v2"
+	"github.com/kodix/openstack-golang-client/examples/setup"
+	"github.com/kodix/openstack-golang-client/openstack"
+	"github.com/kodix/openstack-golang-client/volume/v2"
 )
 
 // Volume examples.
