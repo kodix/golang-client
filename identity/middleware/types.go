@@ -17,7 +17,7 @@ package middleware
 import (
 	"time"
 
-	"git.openstack.org/openstack/golang-client/openstack"
+	"github.com/kodix/golang-client/openstack"
 )
 
 type Validator struct {

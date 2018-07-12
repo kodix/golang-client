@@ -24,9 +24,9 @@ import (
 	"net/http"
 	"time"
 
-	"git.openstack.org/openstack/golang-client/examples/setup"
-	"git.openstack.org/openstack/golang-client/objectstorage/v1"
-	"git.openstack.org/openstack/golang-client/openstack"
+	"github.com/kodix/golang-client/examples/setup"
+	"github.com/kodix/golang-client/objectstorage/v1"
+	"github.com/kodix/golang-client/openstack"
 )
 
 func main() {

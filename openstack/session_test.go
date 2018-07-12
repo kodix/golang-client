@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"testing"
 
-	"git.openstack.org/openstack/golang-client/testUtil"
+	"github.com/kodix/golang-client/testUtil"
 )
 
 type TestStruct struct {

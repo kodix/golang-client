@@ -30,8 +30,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"git.openstack.org/openstack/golang-client/openstack"
-	"git.openstack.org/openstack/golang-client/util"
+	"github.com/kodix/golang-client/openstack"
+	"github.com/kodix/golang-client/util"
 )
 
 type Service struct {

@@ -18,11 +18,11 @@ package main
 
 import (
 	"fmt"
-	// "git.openstack.org/openstack/golang-client/identity/v2"
+	// "github.com/kodix/golang-client/identity/v2"
 	"time"
 
-	"git.openstack.org/openstack/golang-client/examples/setup"
-	"git.openstack.org/openstack/golang-client/openstack"
+	"github.com/kodix/golang-client/examples/setup"
+	"github.com/kodix/golang-client/openstack"
 )
 
 // Authentication examples.
