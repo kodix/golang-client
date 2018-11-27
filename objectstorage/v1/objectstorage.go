@@ -78,16 +78,16 @@ func ListObjects(session *openstack.Session, limit int64,
 		query.Add("limit", strconv.FormatInt(limit, 10))
 	}
 	if marker != "" {
-		query.Add("marker", url.QueryEscape(marker))
+		query.Add("marker",marker)
 	}
 	if prefix != "" {
-		query.Add("prefix", url.QueryEscape(prefix))
+		query.Add("prefix", prefix)
 	}
 	if path != "" {
-		query.Add("path", url.QueryEscape(path))
+		query.Add("path", path)
 	}
 	if delim != "" {
-		query.Add("delimiter", url.QueryEscape(delim))
+		query.Add("delimiter", delim)
 	}
 	resp, err := session.Get(conURL, &query, nil)
 	if err != nil {
